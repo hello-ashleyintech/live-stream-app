@@ -1,20 +1,27 @@
 {
-  "name": "live-stream-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "custom-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon server.js && next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js && next start"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "pages/*"
+    ]
   },
   "dependencies": {
-    "next": "12.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "ws": "^7.2.3"
   },
   "devDependencies": {
-    "eslint": "8.10.0",
-    "eslint-config-next": "12.1.0"
+    "nodemon": "^2.0.2",
+    "prettier": "2.5.1"
   }
 }

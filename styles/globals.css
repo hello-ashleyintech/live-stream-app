@@ -1,9 +1,13 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(168, 255, 242, 1) 0%,
+    rgba(135, 216, 232, 1) 65%,
+    rgba(187, 182, 236, 1) 100%
+  );
 }
 
 a {

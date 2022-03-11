@@ -3,7 +3,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 This project is an in-browser live streaming app built for the talk "Democratizing Live Video with React" based off of the Mux blog post, 
-[The state of going live from a browser](https://mux.com/blog/the-state-of-going-live-from-a-browser/).
+[The state of going live from a browser](https://mux.com/blog/the-state-of-going-live-from-a-browser/) by Mux's Head of DevEx, Matt McClure.
 
 ![live-stream-app](https://user-images.githubusercontent.com/12901850/157758507-e2a61889-dc7e-460b-a726-e15bf32cc932.gif)
 
